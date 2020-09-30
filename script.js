@@ -1,60 +1,86 @@
 
-// Below are the multiple choice questions and their answers
+//Main Var Elements: // Below are the multiple choice questions and their answers
 
-var questions = [{
-    title: "What does HTML stands for?",
-    choices: ["Hypertext Machine language( )", "Hypertext and links markup language( )", "Hypertext Markup Language( )", "Hightext machine language( )"],
-    answer: "Hypertext Markup Language.( )"
-},
-{
-    title: "How is document type initialized in HTML5.?",
-    choices: ["</DOCTYPE HTML>( )", "</DOCTYPE>( )", "<!DOCTYPE HTML>( )", "</DOCTYPE html>( )"],
-    answer: "<!DOCTYPE HTML> ( )"
-},
-{
-    title: " Which of the following HTML Elements is used for making any text bold?",
-    choices: ["<p>( )", "<i>( )", "<li>( )", "<b>"],
-    answer: "<b>( )"
-},
-{
-    title: "Which of the following HTML element is used for creating an unordered list?",
-    choices: ["<ui>( )", "<i>( )", "<em>( )", "<ul>( )"],
-    answer: "<ul>( )"
-},
-{
-    title: "Which of the following attributes is used to open an hyperlink in new tab?",
-    choices: ["tab( )", "href( )", "target( )", "ref( )"],
-    answer: "target( )"
 
-},
-{
-    title: "What is the purpose of using div tags in HTML?",
-    choices: ["For creating Different styles( )", "For creating different sections( )", "For adding headings( )", "For adding titles( )"],
-    answer: "For creating different sections.( )"
-},
-{
+const quizContainer = document.getElementById('quiz');
+             const resultsContainer = document.getElementById('results');
+             const submitButton = document.getElementById('submit');
 
-    title: "Which tag is used for creating a drop-down selection list?",
-    choices: ["<select>( )", "<option>( )", "<dropdown>( )", "<list>( )"],
-    answer: "<option> ( )"
-},
-{
 
-    title: "Which of the following tags is used to make a portion of text italic in HTML?",
-    choices: ["<italic>( )", "<style= “i”>( )", "<i>( )", "<style=“italic”> ( )"],
-    answer: "<i>( )"
-},
-{
-    title: "Which of the following tags is used to add a line-break in HTML?",
-    choices: ["<br>( )", "<break>( )", "</break>( )", "<style=“italic”> ( )"],
-    answer: "<i>( )"
-},
-{
-    title: "Which of the following is the correct way to add background color in HTML",
-    choices: ["<body color = “green”>( )", "<body bg-color = “green”>( )", "<body style = “background-color=green”>( )", "<body style = “background-color: green;”>”> ( )"],
-    answer: "<body style = “background-color: green;”>( )"
-},
-]
+             function buildQuiz(){}
+
+function showResults(){}
+
+// Display Quiz 
+buildQuiz();
+
+// To Submit & Show Results
+submitButton.addEventListener('click', showResults);
+
+
+const myQuestions = [
+    {
+      question: "What does HTML stands for?",
+      answers: {
+        a: "Hypertext Machine language",
+        b: "Hypertext and links markup language",
+        c: "Hypertext Markup Language"  
+    
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "How is document type initialized in HTML5.?",
+      answers: {
+        a: "</DOCTYPE HTML>",
+        b: "</DOCTYPE>",
+        c: "<!DOCTYPE HTML>"
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Which of the following HTML Elements is used for making any text bold?",
+        a: "<p>",
+        b: "<i>",
+        c: "<li>",
+        d: "<b>",
+      },
+      {
+      correctAnswer: "d"
+
+      },
+      {
+
+      question: "Which of the following HTML element is used for creating an unordered list??",
+      answers: {
+        a: "<ui>",
+        b: "<i>",
+        c: "<ul>",  
+    
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "Which of the following attributes is used to open an hyperlink in new tab?",
+      answers: {
+        a: "tab",
+        b: "href",
+        c: "target",
+      },
+      correctAnswer: "c"
+    },
+    {
+      question: "What is the purpose of using div tags in HTML?",
+        a: "For creating Different styles",
+        b: "For adding headings",
+        c: "For adding titles",
+        d: "For creating different sections",
+      },
+      {
+      correctAnswer: "d"
+    }
+  ];
+
 // Further Var Elements
 
 var timeLeft = 30;
@@ -81,7 +107,7 @@ function myTimer() {
   var d = new Date();
   document.getElementById("Local Time").innerHTML = d.toLocaleTimeString();
 
-
+}
 
 
 
