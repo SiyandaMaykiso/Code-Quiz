@@ -41,5 +41,17 @@ var questions = [{
 {
 
     title: "Which of the following tags is used to make a portion of text italic in HTML?",
-    choices: ["<italic>( )", "<style= “i”> ( )", "<i>( )", "<style=“italic”> ( )"],
+    choices: ["<italic>( )", "<style= “i”>( )", "<i>( )", "<style=“italic”> ( )"],
     answer: "<i>( )"
+},
+{
+    title: "Which of the following tags is used to add a line-break in HTML?",
+    choices: ["<br>( )", "<break>( )", "</break>( )", "<style=“italic”> ( )"],
+    answer: "<i>( )"
+},
+{
+    title: "Which of the following is the correct way to add background color in HTML",
+    choices: ["<body color = “green”>( )", "<body bg-color = “green”>( )", "<body style = “background-color=green”>( )", "<body style = “background-color: green;”>”> ( )"],
+    answer: "<body style = “background-color: green;”>( )"
+},
+]
