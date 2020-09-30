@@ -55,3 +55,6 @@ var questions = [{
     answer: "<body style = “background-color: green;”>( )"
 },
 ]
+// Further Var Elements
+
+var quizQuestions = document.getElementById("Start Quiz-Questions");
