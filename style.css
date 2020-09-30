@@ -1,5 +1,7 @@
+
 body {
   background-color: linen;
+  box-sizing: content-box
 }
 
 p {
