@@ -34,8 +34,12 @@ var questions = [{
 },
 {
 
-    title: "Which tag is used for creating a drop-down selection list??",
+    title: "Which tag is used for creating a drop-down selection list?",
     choices: ["<select>( )", "<option>( )", "<dropdown>( )", "<list>( )"],
     answer: "<option> ( )"
-}
-]
+},
+{
+
+    title: "Which of the following tags is used to make a portion of text italic in HTML?",
+    choices: ["<italic>( )", "<style= “i”> ( )", "<i>( )", "<style=“italic”> ( )"],
+    answer: "<i>( )"
