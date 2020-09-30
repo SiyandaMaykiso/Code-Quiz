@@ -2,20 +2,20 @@
 //Main Var Elements: // Below are the multiple choice questions and their answers
 
 
-const quizContainer = document.getElementById('quiz');
-             const resultsContainer = document.getElementById('results');
-             const submitButton = document.getElementById('submit');
+const quizContainer = document.getElementById('Quiz');
+             const resultsContainer = document.getElementById('Results');
+             const submitButton = document.getElementById('Submit');
 
 
              function buildQuiz(){}
 
 function showResults(){}
 
-// Display Quiz 
+// To Display the Quiz 
 buildQuiz();
 
 // To Submit & Show Results
-submitButton.addEventListener('click', showResults);
+submitButton.addEventListener('Click', showResults);
 
 
 const myQuestions = [
