@@ -57,4 +57,31 @@ var questions = [{
 ]
 // Further Var Elements
 
-var quizQuestions = document.getElementById("Start Quiz-Questions");
+var timeLeft = 30;
+    var quizQuestions = document.getElementById("Start Quiz-Questions");
+    
+    var timerId = setInterval(countdown, 1000);
+    
+    function countdown() {
+      if (timeLeft == -1) {
+        clearTimeout(timerId);
+        doSomething();
+      } else {
+        elem.innerHTML = timeLeft + ' Seconds Remaining';
+        timeLeft--;
+      }
+    }
+<div id="Quiz Questions">
+</div>
+
+//Function Commands
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("Local Time").innerHTML = d.toLocaleTimeString();
+
+
+
+
+
