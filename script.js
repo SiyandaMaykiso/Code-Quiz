@@ -3,7 +3,7 @@
 
 var questions = [{
     title: "What does HTML stands for?",
-    choices: ["Hypertext Machine language.( )", "Hypertext and links markup language.( )", "Hypertext Markup Language( )", "Hightext machine language.( )"],
+    choices: ["Hypertext Machine language( )", "Hypertext and links markup language( )", "Hypertext Markup Language( )", "Hightext machine language( )"],
     answer: "Hypertext Markup Language.( )"
 },
 {
@@ -29,7 +29,13 @@ var questions = [{
 },
 {
     title: "What is the purpose of using div tags in HTML?",
-    choices: ["For creating Different styles.( )", "For creating different sections.( )", "For adding headings. ( )", "For adding titles.( )"],
+    choices: ["For creating Different styles( )", "For creating different sections( )", "For adding headings( )", "For adding titles( )"],
     answer: "For creating different sections.( )"
+},
+{
+
+    title: "Which tag is used for creating a drop-down selection list??",
+    choices: ["<select>( )", "<option>( )", "<dropdown>( )", "<list>( )"],
+    answer: "<option> ( )"
 }
 ]
