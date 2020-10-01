@@ -1,5 +1,5 @@
 
-//Main Var Elements: // Below are the multiple choice questions and their answers
+//Main Var Elements:
 
 
 const quizContainer = document.getElementById('Quiz');
@@ -17,6 +17,7 @@ buildQuiz();
 // To Submit & Show Results
 submitButton.addEventListener('Click', showResults);
 
+// Below are the multiple choice questions and their answers
 
 const myQuestions = [
     {
