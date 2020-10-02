@@ -8,13 +8,13 @@
       // This is for each question
       myQuestions.forEach(
         (currentQuestion, questionNumber) => {
-  
+
           // This Variable is to store the list of possible answers
           const answers = [];
-  
+
           // This is for each available answer
-          for(letter in currentQuestion.answers){
-  
+          for (letter in currentQuestion.answers) {
+
             // This is the HTML radio button
             answers.push(
               `<label>
@@ -24,7 +24,7 @@
               </label>`
             );
           }
-  
+
           // This is for the output of questions and answers
           output.push(
             `<div class="slide">
