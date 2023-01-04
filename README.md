@@ -6,6 +6,8 @@ This app will run in the browser, and will feature dynamically updated HTML and 
 
 It has a clean, polished, and responsive user interface.
 
+The published site is below:
+
 https://siyandamaykiso.github.io/Code-Quiz/
 
 Sources:
